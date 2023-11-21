@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h3 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  z-index:1;
+  position:relative;
+}
+
+form {
+  width: 40%;
+  float: right;
+  margin-left: -250px;
+  background-image:url("gambar2.jpg");
+  background-size:cover;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index:1;
+  position:relative;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #868181;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2b2525;
+}
+
+.gambar{
+  width: 60%;
+  high:100%;
+  position:relative;
+}
+
+.gambar1 {
+  width: 90%;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top:-500px;
+}
+
+.gambar3 {
+  width:100%;
+  background-image:url("gambar3.jpg");
+  background-size:cover;
+}
+
+.hasil {
+  text-align: center;
+  color: white;
+  z-index:1;
+  position:relative;
+  margin-top:-300px;
+}
